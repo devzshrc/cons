@@ -53,9 +53,9 @@ export default function Home() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {services.map(service => (
-              <Card key={service.id} className="bg-background border-border shrink-0 hover:border-foreground/20 transition-colors">
+              <Card key={service.id} className="bg-secondary/50 border-transparent hover:border-accent/40 transition-all duration-300">
                 <CardContent className="p-6">
-                  <h3 className="font-heading font-bold text-xl mb-3">{service.title}</h3>
+                  <h3 className="font-heading font-bold text-xl mb-3 text-primary">{service.title}</h3>
                   <p className="text-muted-foreground">{service.description}</p>
                 </CardContent>
               </Card>
