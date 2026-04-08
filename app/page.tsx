@@ -18,7 +18,7 @@ export default function Home() {
       <TrustStrip />
 
       {/* Featured Projects */}
-      <section className="py-24">
+      <section className="py-16 md:py-24">
         <div className="container mx-auto max-w-7xl px-4 md:px-8">
           <div className="flex justify-between items-end mb-12">
             <div>
@@ -45,7 +45,7 @@ export default function Home() {
       </section>
 
       {/* Services */}
-      <section className="py-24 bg-muted/30 border-y">
+      <section className="py-16 md:py-24 bg-muted/30 border-y">
         <div className="container mx-auto max-w-7xl px-4 md:px-8">
           <div className="mb-16 text-center">
             <h2 className="text-4xl font-heading font-bold mb-4">What We Do</h2>
@@ -67,7 +67,7 @@ export default function Home() {
       <ProcessSection />
 
       {/* Testimonials */}
-      <section className="py-24">
+      <section className="py-16 md:py-24">
         <div className="container mx-auto max-w-7xl px-4 md:px-8">
           <h2 className="text-4xl font-heading font-bold mb-16 text-center">Client Trust</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -87,7 +87,7 @@ export default function Home() {
       </section>
 
       {/* Final CTA */}
-      <section className="py-32 bg-background border-t text-center">
+      <section className="py-20 md:py-32 bg-background border-t text-center">
         <div className="container mx-auto max-w-3xl px-4 md:px-8">
           <h2 className="text-5xl md:text-6xl font-heading font-bold mb-8">Ready to build?</h2>
           <p className="text-xl text-muted-foreground mb-12">Let&apos;s discuss your next project and how we can bring it to life.</p>

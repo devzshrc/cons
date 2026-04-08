@@ -8,7 +8,7 @@ export function ProcessSection() {
   ];
 
   return (
-    <section className="py-24 bg-foreground text-background">
+    <section className="py-16 md:py-24 bg-foreground text-background">
       <div className="container mx-auto max-w-7xl px-4 md:px-8">
         <div className="mb-16 md:mb-24">
           <h2 className="text-4xl md:text-5xl font-heading font-bold mb-4">Our Process</h2>

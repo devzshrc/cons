@@ -28,8 +28,8 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
         </Link>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-end">
           <div>
-            <h1 className="text-5xl md:text-6xl font-heading font-bold mb-4">{project.title}</h1>
-            <p className="text-xl text-muted-foreground mb-8">{project.description}</p>
+            <h1 className="text-4xl md:text-6xl font-heading font-bold mb-4">{project.title}</h1>
+            <p className="text-lg md:text-xl text-muted-foreground mb-8">{project.description}</p>
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-2 gap-8 lg:ml-auto">
             <div>
@@ -75,9 +75,9 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
         </div>
 
         {/* Next Steps */}
-        <div className="bg-muted/30 p-12 md:p-24 rounded-2xl text-center flex flex-col items-center">
-          <h2 className="text-4xl font-heading font-bold mb-6">Like what you see?</h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mb-10">We can bring this level of detail and execution to your next project.</p>
+        <div className="bg-muted/30 p-8 md:p-24 rounded-2xl text-center flex flex-col items-center">
+          <h2 className="text-3xl md:text-4xl font-heading font-bold mb-6">Like what you see?</h2>
+          <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mb-10">We can bring this level of detail and execution to your next project.</p>
           <Button size="lg" asChild className="rounded-full h-14 px-10 text-lg">
             <Link href="/book-call">Book a Consultation</Link>
           </Button>

@@ -6,11 +6,11 @@ export function HeroSection() {
     <section className="relative pt-24 pb-12 md:pt-32 md:pb-20 overflow-hidden">
       <div className="absolute inset-0 -z-10 bg-[radial-gradient(45%_40%_at_50%_50%,var(--color-secondary)_0%,transparent_100%)] opacity-40" />
       <div className="container mx-auto max-w-5xl px-4 md:px-8 text-center">
-        <h1 className="text-5xl md:text-7xl font-heading font-bold tracking-tight mb-8 leading-tight uppercase">
+        <h1 className="text-4xl sm:text-5xl md:text-7xl font-heading font-bold tracking-tight mb-6 md:mb-8 leading-[1.1] uppercase">
           Precision construction for <br className="hidden md:block" />
           <span className="text-accent">modern</span> spaces.
         </h1>
-        <p className="text-lg md:text-xl text-muted-foreground mb-12 max-w-2xl mx-auto">
+        <p className="text-base sm:text-lg md:text-xl text-muted-foreground mb-8 md:mb-12 max-w-2xl mx-auto">
           We build high-end residential and commercial properties with unmatched precision. 
           Transparent processes, guaranteed quality, delivered on time.
         </p>
