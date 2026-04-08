@@ -8,14 +8,9 @@ export default function BookCallPage() {
         </p>
 
         {/* Cal.com embed placeholder - standard iframe since this is purely frontend */}
-        <div className="w-full max-w-3xl mx-auto rounded-xl overflow-hidden border bg-background shadow-sm h-[600px] flex items-center justify-center relative">
-          <div className="absolute inset-0 bg-muted flex flex-col items-center justify-center text-center p-8 z-0">
-             <h3 className="font-heading font-bold text-2xl mb-2">Cal.com Widget Area</h3>
-             <p className="text-muted-foreground">This is where the Cal.com embed is injected. Once you have an account, you replace the generic code block here with your personal snippet.</p>
-          </div>
-          {/* This is a visual representation for the MVP as instructed in the spec */}
+        <div className="w-full max-w-5xl mx-auto rounded-2xl overflow-hidden border bg-background shadow-xl h-[700px] flex items-center justify-center relative">
           <iframe 
-            src="https://cal.com/rick" 
+            src="https://cal.com/de5ash1zh" 
             title="Book a consultation"
             className="w-full h-full relative z-10 bg-transparent"
             frameBorder="0"
