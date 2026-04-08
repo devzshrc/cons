@@ -6,9 +6,9 @@ export default function AboutPage() {
       <div className="container mx-auto max-w-7xl px-4 md:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center mb-24">
           <div>
-            <h1 className="text-5xl font-heading font-bold mb-6">About CONS.</h1>
+            <h1 className="text-5xl font-heading font-bold mb-6">About Ajit Constructions</h1>
             <p className="text-xl text-muted-foreground mb-6">
-              We started CONS. because we believed that the construction industry lacked a critical element: <strong className="text-foreground">transparency and design-forward execution.</strong>
+              We started Ajit Constructions because we believed that the construction industry lacked a critical element: <strong className="text-foreground">transparency and design-forward execution.</strong>
             </p>
             <p className="text-xl text-muted-foreground">
               For over a decade, we have been partnering with visionaries, architects, and homeowners to build structures that are as structurally sound as they are beautiful.

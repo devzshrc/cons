@@ -7,7 +7,7 @@ export function Navbar() {
       <div className="container mx-auto max-w-7xl px-4 md:px-8 flex h-16 items-center justify-between">
         <div className="flex gap-6 md:gap-10">
           <Link href="/" className="flex items-center space-x-2">
-            <span className="font-heading font-bold text-xl tracking-tight">CONS.</span>
+            <span className="font-heading font-bold text-xl tracking-tight uppercase">AJIT.</span>
           </Link>
           <nav className="hidden md:flex gap-6">
             <Link

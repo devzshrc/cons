@@ -25,7 +25,7 @@ export default function ContactPage() {
       `Name: ${formData.name}\nEmail: ${formData.email}\nPhone: ${formData.phone}\nProject Type: ${formData.projectType}\n\nMessage:\n${formData.message}`
     );
     // Simple frontend-only submission via mailto
-    window.location.href = `mailto:hello@cons-agency.example.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:hello@ajitconstructions.example.com?subject=${subject}&body=${body}`;
   };
 
   return (
@@ -80,7 +80,7 @@ export default function ContactPage() {
             </Button>
 
             <p className="text-sm text-center text-muted-foreground mt-4">
-              Alternatively, you can email us directly at <a href="mailto:hello@cons-agency.example.com" className="underline">hello@cons-agency.example.com</a>
+              Alternatively, you can email us directly at <a href="mailto:hello@ajitconstructions.example.com" className="underline">hello@ajitconstructions.example.com</a>
             </p>
           </form>
         </div>

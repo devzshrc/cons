@@ -7,7 +7,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="md:col-span-2">
             <Link href="/" className="inline-block mb-4">
-              <span className="font-heading font-bold text-2xl tracking-tight">CONS.</span>
+              <span className="font-heading font-bold text-2xl tracking-tight uppercase">AJIT.</span>
             </Link>
             <p className="text-muted-foreground max-w-sm">
               We design and build high-end residential and commercial properties with unmatched precision and minimal aesthetics.
@@ -56,7 +56,7 @@ export function Footer() {
         </div>
         <div className="mt-12 pt-8 border-t flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} CONS. Construction. All rights reserved.
+            © {new Date().getFullYear()} Ajit Constructions. All rights reserved.
           </p>
           <p className="text-sm text-muted-foreground">
             Built with Next.js
